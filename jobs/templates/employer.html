@@ -21,6 +21,8 @@
         </div>
         <div class="media-content">
           <div class="content">
+          </div>
+
               <p>
                   <strong>{{  review['title'] }}</strong>
                   <small>{{  review['status'] }}</small>
@@ -32,9 +34,7 @@
       </article>
     {%  endfor %}
     </div>
-    {# TODO: Remove comment and end for loop
-      {% %}
-    #}
+    {%  endfor %}
   <div class="columns">
     <div class="column">
       <a class="button is-info is-pulled-right">Create Review</a>
